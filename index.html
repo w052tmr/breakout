@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Breakout!</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="primary-heading">breakout!</h1>
+            <button type="button" class="rulesBtn btn" id="rulesBtn">
+                Rules
+            </button>
+        </div>
+
+        <div class="rules hide" id="rules">
+            <div class="text-box">
+                <h2 class="secondary-heading">How to play</h2>
+                <ul>
+                    <li>
+                        <span>1.)</span>
+                        Use the <b>left</b> and <b>right arrow keys</b> to move
+                        the paddle horizontally and hit the ball.
+                    </li>
+                    <li>
+                        <span>2.)</span>
+                        Deflect the ball from your paddle at an angle that will
+                        hit and <i>break as many bricks as possible</i>.
+                        <b>You get 1 point for each brick that you break</b>.
+                    </li>
+                    <li>
+                        <span>3.)</span>
+                        Be careful though...
+                        <b>If you miss the ball, your score will reset to 0</b>,
+                        and the number of bricks will reset as well.
+                    </li>
+                    <li>
+                        <span>4.)</span>
+                        <b>Good luck!</b>
+                    </li>
+                </ul>
+                <button type="button" class="closeBtn btn" id="closeBtn">
+                    Close
+                </button>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
